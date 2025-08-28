@@ -11,7 +11,7 @@ class Slide1 extends StatefulWidget {
   @override
   State<Slide1> createState() => _Slide1State();
 }
-
+// jay is  good
 class _Slide1State extends State<Slide1> with TickerProviderStateMixin {
   late AnimationController _mapController;
   late AnimationController _bottomController;
