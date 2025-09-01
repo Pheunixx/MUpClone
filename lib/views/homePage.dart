@@ -537,8 +537,14 @@ class _HomepageState extends State<Homepage> {
                     width: 100,
                     height: 120,),
                     Column(
-                      
-                    )
+                     children: [
+                       const Text("Orchestral Concert"),
+
+                     ],
+                     
+                    ),
+                  Spacer(),
+                  Icon(Icons.forward_30)
 
                   ],
                 ),
